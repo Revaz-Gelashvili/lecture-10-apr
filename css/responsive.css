@@ -1,0 +1,130 @@
+@media (max-width: 500px) {
+  /*                                                   Header                                              */
+
+  header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  }
+
+  .nav-list {
+    display: none;
+  }
+
+  .menu-list {
+    display: block;
+    margin-right: 12px;
+    cursor: pointer;
+  }
+
+  /*                                                   Section-1                                              */
+
+  section {
+    width: 100%;
+    padding: 0 24px;
+  }
+
+  .section-first {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-top: 33px;
+    padding-bottom: 59px;
+  }
+
+  .section-first-left,
+  .section-first-right {
+    width: 100%;
+    text-align: center;
+  }
+
+  .first-title {
+    font-size: 32px;
+    line-height: 40px;
+    width: 100%;
+    margin-top: 34px;
+  }
+
+  .section-first-left p {
+    font-size: 14px;
+  }
+
+  .section-first-left button {
+    width: 208px;
+  }
+
+  .section-first-right {
+    justify-content: center;
+  }
+
+  /*                                                   Section-2                                              */
+
+  .section-second-body {
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-second-middle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-second-box {
+    margin-bottom: 17px;
+    height: 266px;
+    width: 100%;
+  }
+
+  .section-second-header {
+    font-size: 18px;
+    text-align: center;
+    display: block;
+  }
+
+  .section-second-box h3 {
+    font-weight: 700;
+    font-size: 22px;
+    padding-bottom: 29px;
+  }
+
+  .section-second-box p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+
+  .section-second-box-description {
+    font-size: 16px;
+    padding-top: 28px;
+  }
+
+  .section-second-box-links {
+    display: none;
+  }
+
+  /*                                                   Section-3                                              */
+
+  .section-third-title {
+    text-align: center;
+  }
+
+  .section-third-img {
+    width: 200px;
+    height: 140px;
+    margin-top: 30px;
+  }
+
+  .section-third-card h3 {
+    font-size: 27px;
+  }
+
+  .section-third-year-dashboard {
+    font-size: 17px;
+  }
+
+  .year {
+    font-size: 15px;
+  }
+
+  /*                                                   footer                                              */
+}
