@@ -109,9 +109,12 @@
   }
 
   .section-third-img {
-    width: 200px;
-    height: 140px;
-    margin-top: 30px;
+    margin-bottom: 17px;
+  }
+
+  .section-third-card {
+    display: flex;
+    flex-direction: column;
   }
 
   .section-third-card h3 {
